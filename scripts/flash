@@ -1,0 +1,4 @@
+#! /bin/bash
+nrfjprog --eraseall
+nrfjprog --program $1
+nrfjprog --reset
